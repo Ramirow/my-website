@@ -232,15 +232,15 @@ figure {
 
 #colorlib-hero {
   min-height: 500px;
-  background: #fff url(../images/loader.gif) no-repeat center center;
+  /* background: #fff url(../images/loader.gif) no-repeat center center; */
   width: 100%;
   float: left;
-  margin-bottom: 10em;
+  margin-bottom: 0px;
   clear: both; }
   #colorlib-hero .flexslider {
     border: none;
     z-index: 1;
-    margin-bottom: 0; }
+    margin-bottom: 0px; }
     #colorlib-hero .flexslider .slides {
       position: relative;
       overflow: visible; }
@@ -251,7 +251,7 @@ figure {
         min-height: 400px;
         position: relative; }
     #colorlib-hero .flexslider .flex-control-nav {
-      bottom: 20px;
+      bottom: 5px;
       z-index: 1000;
       left: 20px;
       float: left;
@@ -259,7 +259,7 @@ figure {
       @media screen and (max-width: 768px) {
         #colorlib-hero .flexslider .flex-control-nav {
           right: 20px;
-          top: 100px; } }
+          top: 20px; } }
       #colorlib-hero .flexslider .flex-control-nav li {
         display: block;
         margin-bottom: 10px; }
@@ -269,6 +269,7 @@ figure {
           box-shadow: none;
           width: 12px;
           height: 12px;
+          margin-top: 10px;
           cursor: pointer; }
           #colorlib-hero .flexslider .flex-control-nav li a.flex-active {
             cursor: pointer;
@@ -283,7 +284,7 @@ figure {
       z-index: 9; }
       #colorlib-hero .flexslider .slider-text > .slider-text-inner {
         display: table-cell;
-        vertical-align: middle;
+        vertical-align: bottom;
         min-height: 700px;
         padding: 2.5em;
         position: relative; }
@@ -296,9 +297,9 @@ figure {
           color: black;
           font-family: "Playfair Display", Georgia, serif; }
         #colorlib-hero .flexslider .slider-text > .slider-text-inner h1 {
-          margin-bottom: 20px;
+          margin-bottom: 50px;
           font-size: 60px;
-          line-height: 1.3;
+          /* line-height: 1.3; */
           font-weight: 700; }
           @media screen and (max-width: 768px) {
             #colorlib-hero .flexslider .slider-text > .slider-text-inner h1 {
@@ -306,7 +307,7 @@ figure {
         #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 {
           font-size: 18px;
           line-height: 1.5;
-          margin-bottom: 30px;
+          margin-bottom: 5px;
           font-weight: 300;
           font-family: "Quicksand", Arial, sans-serif; }
           #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 a {
@@ -325,6 +326,7 @@ figure {
           margin-bottom: 0; }
         #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn {
           font-size: 12px;
+          margin-top: 15px;
           text-transform: uppercase;
           letter-spacing: 2px;
           color: #000;
@@ -380,7 +382,7 @@ body.offcanvas {
 .colorlib-about,
 .colorlib-services,
 .colorlib-contact {
-  padding-top: 4em;
+  /* padding-top: 4em; */
   padding-bottom: 9em;
   clear: both;
   width: 100%;
@@ -394,7 +396,7 @@ body.offcanvas {
     .colorlib-about,
     .colorlib-services,
     .colorlib-contact {
-      padding-top: 5em;
+      /* padding-top: 5em; */
       padding-bottom: 8em; } }
 
 .author-img {
@@ -984,6 +986,7 @@ body.offcanvas {
       transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
       -webkit-transform: translate3d(0, -15px, 0);
       transform: translate3d(0, -15px, 0);
+      margin-bottom: 15px;
       margin-bottom: 15px; }
       .project .desc h3 a {
         color: #fff; }
