@@ -283,10 +283,11 @@ figure {
       min-height: 500px;
       z-index: 9; }
       #colorlib-hero .flexslider .slider-text > .slider-text-inner {
-        display: table-cell;
+        /* display: table-cell; */
         vertical-align: bottom;
-        min-height: 700px;
-        padding: 2.5em;
+        /* min-height: 700px; */
+        margin-bottom: 10px;
+        /* padding: 2.5em; */
         position: relative; }
         @media screen and (max-width: 768px) {
           #colorlib-hero .flexslider .slider-text > .slider-text-inner {
