@@ -1433,7 +1433,7 @@ body.offcanvas {
   opacity: 0; }
 
 
-
+  @media (min-width: 768px) {
 .homepage-space {
     display: flex;
     justify-content: center;
@@ -1461,3 +1461,4 @@ body.offcanvas {
   margin-left: 50px !important;
   padding-left: 50px !important;
 }
+  }
